@@ -12,6 +12,7 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
         <link href="css/site.css" rel="stylesheet">
+        <link href="css/prism.css" rel="stylesheet">
     
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>
@@ -61,7 +62,24 @@
 </nav>
 <!-- ===== Main Section ===== -->
 <main class="flex-shrink-0">
-    <div class="container">
+    <div class="container py-5 px-5 mt-5">
+        <h2 class="border-1 border-bottom border-dark">The Code for APP NAME</h2>
+        <div class="row rows-cols-1 rows-cols-lg-2">
+            <div class="col-lg-8">
+                <pre class="line-numbers"><code class="language-javascript">
+                    function helloWorld(){
+                        alert("hello world");
+                    }
+                    </code>
+                </pre>
+            </div>
+            
+            <div class="col-lg-4">
+                <p> The Code is Structured in one function</p>
+                <h5>Hello world</h5>
+                <p>Hello Wold is a function that displays an alert with a message of : Hello world</p>
+            </div>
+        </div>
 
     </div>
     </main>
@@ -92,5 +110,14 @@
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
 </script>
 <script src=js/site.js></script>
+<script src="js/prism.js"> </script>
+<script>
+    Prism.plugins.NormalizeWhitespace.setDefaults({
+        'remove-trailing': true,
+        'remove-indent': true,
+        'left-trim': true,
+        'right-trim': true
+        })
+</script>
 </body>
 </html>

@@ -1,3 +1,9 @@
+// Section 4 Hello World
+function helloWorld(){
+    alert("hello world");
+}
+
+
 
 //get the values from the page
 //Starts or Controller Function
