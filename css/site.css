@@ -7,6 +7,13 @@
     --navbuttonlinks-color: #40578B;
 
 }
+.odd{
+    font-weight: 100;
+}
+.even{
+    font-weight: bold;
+    font-size: large;
+}
 
 .logoFont {
     font-family: 'Racing Sans One', cursive;
@@ -62,8 +69,9 @@ main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
 }
+
 .sticky-footer {
-    position: sticky;
+    position: -webkit-sticky;
     left: 0;
     bottom: 0;
     width: 100%;
